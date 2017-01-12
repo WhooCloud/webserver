@@ -1,7 +1,7 @@
 local resty_md5 = require "resty.md5"
 local upload = require "resty.upload"
 local str = require "resty.string"
-local dst_dir = "/home/ubuntu/load_balancing_http/img"
+local dst_dir = "/home/ubuntu/webserver/backendserver/img"
 
 
 function get_filename(res)
