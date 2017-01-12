@@ -1,0 +1,31 @@
+2017/01/12 05:32:02 [alert] 24367#0: lua_code_cache is off; this will hurt performance in /home/ubuntu/webserver/client/conf/nginx.conf:18
+2017/01/12 05:32:02 [notice] 24367#0: using the "epoll" event method
+2017/01/12 05:32:02 [notice] 24367#0: openresty/1.11.2.2
+2017/01/12 05:32:02 [notice] 24367#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+2017/01/12 05:32:02 [notice] 24367#0: OS: Linux 4.4.0-53-generic
+2017/01/12 05:32:02 [notice] 24367#0: getrlimit(RLIMIT_NOFILE): 1024:65536
+2017/01/12 05:32:02 [notice] 24368#0: start worker processes
+2017/01/12 05:32:02 [notice] 24368#0: start worker process 24369
+2017/01/12 05:33:33 [error] 24369#0: *1 lua entry thread aborted: runtime error: .../ubuntu/webserver/client/lua/ramlab_websocket_client.lua:12: attempt to concatenate global 'data' (a nil value)
+stack traceback:
+coroutine 0:
+	.../ubuntu/webserver/client/lua/ramlab_websocket_client.lua: in function <.../ubuntu/webserver/client/lua/ramlab_websocket_client.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/01/12 05:34:50 [info] 24369#0: *3 client closed connection while waiting for request, client: 106.1.251.163, server: 0.0.0.0:80
+2017/01/12 05:35:29 [error] 24369#0: *4 lua entry thread aborted: runtime error: .../ubuntu/webserver/client/lua/ramlab_websocket_client.lua:12: attempt to concatenate global 'data' (a nil value)
+stack traceback:
+coroutine 0:
+	.../ubuntu/webserver/client/lua/ramlab_websocket_client.lua: in function <.../ubuntu/webserver/client/lua/ramlab_websocket_client.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/01/12 05:36:02 [error] 24369#0: *6 lua entry thread aborted: runtime error: .../ubuntu/webserver/client/lua/ramlab_websocket_client.lua:12: attempt to concatenate global 'data' (a nil value)
+stack traceback:
+coroutine 0:
+	.../ubuntu/webserver/client/lua/ramlab_websocket_client.lua: in function <.../ubuntu/webserver/client/lua/ramlab_websocket_client.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/01/12 05:36:14 [error] 24369#0: *8 lua entry thread aborted: runtime error: .../ubuntu/webserver/client/lua/ramlab_websocket_client.lua:12: attempt to concatenate global 'data' (a nil value)
+stack traceback:
+coroutine 0:
+	.../ubuntu/webserver/client/lua/ramlab_websocket_client.lua: in function <.../ubuntu/webserver/client/lua/ramlab_websocket_client.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2017/01/12 05:37:50 [info] 24369#0: *10 client 127.0.0.1 closed keepalive connection
+2017/01/12 05:38:39 [info] 24369#0: *12 client 127.0.0.1 closed keepalive connection
+2017/01/12 05:38:42 [info] 24369#0: *14 client 127.0.0.1 closed keepalive connection
+2017/01/12 05:38:43 [info] 24369#0: *16 client 127.0.0.1 closed keepalive connection
+2017/01/12 05:39:37 [info] 24369#0: *18 client 127.0.0.1 closed keepalive connection
+2017/01/12 05:39:59 [info] 24369#0: *20 client 127.0.0.1 closed keepalive connection
