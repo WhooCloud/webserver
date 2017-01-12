@@ -1,0 +1,122 @@
+2017/01/11 11:20:43 [error] 4939#0: *181 failed to load external Lua file "/home/yun/Code/openresty/load-balancing-http/lua/ramlab_upload2file3001.lua": ...resty/load-balancing-http/lua/ramlab_upload2file3001.lua:36: unexpected symbol near ',', client: 127.0.0.1, server: localhost, request: "POST /img HTTP/1.1", host: "localhost:3001"
+2017/01/11 11:21:30 [error] 4939#0: *182 failed to load external Lua file "/home/yun/Code/openresty/load-balancing-http/lua/ramlab_upload2file3001.lua": ...resty/load-balancing-http/lua/ramlab_upload2file3001.lua:36: unexpected symbol near ',', client: 127.0.0.1, server: localhost, request: "POST /img HTTP/1.1", host: "localhost:3001"
+2017/01/11 11:21:58 [error] 4939#0: *183 failed to load external Lua file "/home/yun/Code/openresty/load-balancing-http/lua/ramlab_upload2file3001.lua": ...resty/load-balancing-http/lua/ramlab_upload2file3001.lua:36: unexpected symbol near ',', client: 127.0.0.1, server: localhost, request: "POST /img HTTP/1.1", host: "localhost:3001"
+2017/01/11 11:22:18 [info] 4939#0: *184 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:3001
+2017/01/11 11:23:26 [error] 4939#0: *185 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:23:26 [info] 4939#0: *185 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:23:58 [error] 4939#0: *186 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:23:58 [info] 4939#0: *186 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:24:01 [error] 4939#0: *187 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:24:01 [info] 4939#0: *187 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:24:02 [error] 4939#0: *188 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:24:02 [info] 4939#0: *188 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:24:16 [error] 4939#0: *189 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:24:16 [info] 4939#0: *189 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:24:18 [error] 4939#0: *190 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:24:18 [info] 4939#0: *190 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:24:31 [error] 4939#0: *191 [lua] ramlab_upload2file3001.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /img HTTP/1.1", host: "localhost:3001"
+2017/01/11 11:24:31 [info] 4939#0: *191 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:31:57 [alert] 7768#0: lua_code_cache is off; this will hurt performance in /home/yun/Code/openresty/load-balancing-http/conf/nginx.conf:24
+2017/01/11 11:31:57 [alert] 7768#0: lua_code_cache is off; this will hurt performance in /home/yun/Code/openresty/load-balancing-http/conf/nginx.conf:38
+2017/01/11 11:31:57 [alert] 7768#0: lua_code_cache is off; this will hurt performance in /home/yun/Code/openresty/load-balancing-http/conf/nginx.conf:52
+2017/01/11 11:31:57 [notice] 7768#0: signal process started
+2017/01/11 11:31:57 [notice] 2818#0: signal 1 (SIGHUP) received, reconfiguring
+2017/01/11 11:31:57 [notice] 2818#0: reconfiguring
+2017/01/11 11:31:57 [alert] 2818#0: lua_code_cache is off; this will hurt performance in /home/yun/Code/openresty/load-balancing-http/conf/nginx.conf:24
+2017/01/11 11:31:57 [alert] 2818#0: lua_code_cache is off; this will hurt performance in /home/yun/Code/openresty/load-balancing-http/conf/nginx.conf:38
+2017/01/11 11:31:57 [alert] 2818#0: lua_code_cache is off; this will hurt performance in /home/yun/Code/openresty/load-balancing-http/conf/nginx.conf:52
+2017/01/11 11:31:57 [notice] 2818#0: using the "epoll" event method
+2017/01/11 11:31:57 [notice] 2818#0: start worker processes
+2017/01/11 11:31:57 [notice] 2818#0: start worker process 7769
+2017/01/11 11:31:57 [notice] 4939#0: gracefully shutting down
+2017/01/11 11:31:57 [notice] 4939#0: exiting
+2017/01/11 11:31:57 [notice] 4939#0: exit
+2017/01/11 11:31:57 [notice] 2818#0: signal 17 (SIGCHLD) received
+2017/01/11 11:31:57 [notice] 2818#0: worker process 4939 exited with code 0
+2017/01/11 11:31:57 [notice] 2818#0: signal 29 (SIGIO) received
+2017/01/11 11:32:13 [warn] 7769#0: *192 a client request body is buffered to a temporary file /home/yun/Code/openresty/load-balancing-http/client_body_temp/0000000006, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost"
+2017/01/11 11:32:13 [error] 7769#0: *194 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:32:13 [info] 7769#0: *194 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:32:13 [info] 7769#0: *192 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:32:16 [warn] 7769#0: *195 a client request body is buffered to a temporary file /home/yun/Code/openresty/load-balancing-http/client_body_temp/0000000007, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost"
+2017/01/11 11:32:16 [error] 7769#0: *197 [lua] ramlab_upload2file3001.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:32:16 [info] 7769#0: *197 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:32:16 [info] 7769#0: *195 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:32:27 [warn] 7769#0: *198 a client request body is buffered to a temporary file /home/yun/Code/openresty/load-balancing-http/client_body_temp/0000000008, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost"
+2017/01/11 11:32:27 [error] 7769#0: *200 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:32:27 [info] 7769#0: *200 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:32:27 [info] 7769#0: *198 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:32:29 [warn] 7769#0: *201 a client request body is buffered to a temporary file /home/yun/Code/openresty/load-balancing-http/client_body_temp/0000000009, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost"
+2017/01/11 11:32:29 [error] 7769#0: *203 [lua] ramlab_upload2file3001.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:32:29 [info] 7769#0: *203 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:32:29 [info] 7769#0: *201 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:34:40 [warn] 7769#0: *204 a client request body is buffered to a temporary file /home/yun/Code/openresty/load-balancing-http/client_body_temp/0000000010, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost"
+2017/01/11 11:34:40 [error] 7769#0: *206 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:34:40 [info] 7769#0: *206 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:34:40 [info] 7769#0: *204 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:34:58 [error] 7769#0: *209 [lua] ramlab_upload2file3001.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:34:58 [info] 7769#0: *209 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:34:58 [info] 7769#0: *207 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:35:00 [error] 7769#0: *212 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:35:00 [info] 7769#0: *212 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:35:00 [info] 7769#0: *210 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:35:01 [error] 7769#0: *215 [lua] ramlab_upload2file3001.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:35:01 [info] 7769#0: *215 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:35:01 [info] 7769#0: *213 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:35:03 [error] 7769#0: *218 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:35:03 [info] 7769#0: *218 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:35:03 [info] 7769#0: *216 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:35:05 [error] 7769#0: *221 [lua] ramlab_upload2file3001.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:35:05 [info] 7769#0: *221 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:35:05 [info] 7769#0: *219 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:35:06 [error] 7769#0: *224 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "webservers"
+2017/01/11 11:35:06 [info] 7769#0: *224 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:35:06 [info] 7769#0: *222 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:36:01 [error] 7769#0: *225 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:36:01 [info] 7769#0: *225 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:36:03 [error] 7769#0: *226 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:36:03 [info] 7769#0: *226 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:36:05 [error] 7769#0: *227 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:36:05 [info] 7769#0: *227 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:36:06 [error] 7769#0: *228 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:36:06 [info] 7769#0: *228 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:36:08 [error] 7769#0: *229 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:36:08 [info] 7769#0: *229 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:36:09 [error] 7769#0: *230 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:36:09 [info] 7769#0: *230 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:36:10 [error] 7769#0: *231 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:36:10 [info] 7769#0: *231 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:36:11 [error] 7769#0: *232 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:36:11 [info] 7769#0: *232 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:36:12 [error] 7769#0: *233 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:36:12 [info] 7769#0: *233 client 127.0.0.1 closed keepalive connection
+2017/01/11 11:36:14 [error] 7769#0: *234 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:d41d8cd98f00b204e9800998ecf8427e, client: 127.0.0.1, server: localhost, request: "POST /http-img HTTP/1.1", host: "localhost:3000"
+2017/01/11 11:36:14 [info] 7769#0: *234 client 127.0.0.1 closed keepalive connection
+2017/01/11 12:12:26 [notice] 7769#0: signal 15 (SIGTERM) received, exiting
+2017/01/11 12:12:26 [info] 7769#0: epoll_wait() failed (4: Interrupted system call)
+2017/01/11 12:12:26 [notice] 7769#0: exiting
+2017/01/11 12:12:26 [notice] 2818#0: signal 15 (SIGTERM) received, exiting
+2017/01/11 12:12:26 [notice] 2818#0: signal 17 (SIGCHLD) received
+2017/01/11 12:12:26 [notice] 2818#0: signal 17 (SIGCHLD) received
+2017/01/11 12:12:26 [notice] 7769#0: exit
+2017/01/11 12:12:26 [notice] 2818#0: signal 17 (SIGCHLD) received
+2017/01/11 12:12:26 [notice] 2818#0: worker process 7769 exited with code 0
+2017/01/11 12:12:26 [notice] 2818#0: exit
+2017/01/11 06:42:11 [alert] 24518#0: lua_code_cache is off; this will hurt performance in /home/ubuntu/load_balancing_http/conf/nginx.conf:18
+2017/01/11 06:42:11 [notice] 24518#0: using the "epoll" event method
+2017/01/11 06:42:11 [notice] 24518#0: openresty/1.11.2.2
+2017/01/11 06:42:11 [notice] 24518#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+2017/01/11 06:42:11 [notice] 24518#0: OS: Linux 4.4.0-53-generic
+2017/01/11 06:42:11 [notice] 24518#0: getrlimit(RLIMIT_NOFILE): 1024:65536
+2017/01/11 06:42:11 [notice] 24519#0: start worker processes
+2017/01/11 06:42:11 [notice] 24519#0: start worker process 24520
+2017/01/11 06:43:23 [info] 24520#0: *1 [lua] load_balancing_webserver.lua:44: received a frame of type text and payload test2, client: 218.17.162.222, server: localhost, request: "GET /websocket HTTP/1.1", host: "52.53.179.112"
+2017/01/11 06:43:23 [info] 24520#0: *1 [lua] load_balancing_webserver.lua:54: Hello World, SENT, client: 218.17.162.222, server: localhost, request: "GET /websocket HTTP/1.1", host: "52.53.179.112"
+2017/01/11 06:44:06 [info] 24520#0: *2 client sent invalid method while reading client request line, client: 218.17.162.222, server: localhost, request: "G‹Øøz≈[◊ßªµçM≥WX@¨ã“— Âé£Lå`r9ú`·9∞ZáV„”˚≠§±¨–3ôA“SERA"
+2017/01/11 06:45:36 [info] 24520#0: *3 client sent invalid method while reading client request line, client: 218.17.162.222, server: localhost, request: "G‹Øøz≈[◊ßªµçM≥WX@¨ã“— Âé£Lå`r9ú`·9∞ZáV„”˚≠§±¨–3ôA“SERA"
+2017/01/11 06:45:54 [info] 24520#0: *4 client closed connection while waiting for request, client: 218.17.162.222, server: 0.0.0.0:80
+2017/01/11 06:45:54 [info] 24520#0: *5 client closed connection while waiting for request, client: 218.17.162.222, server: 0.0.0.0:80
+2017/01/11 06:46:34 [info] 24520#0: *6 client sent invalid method while reading client request line, client: 218.17.162.222, server: localhost, request: "G‹Øøz≈[◊ßªµçM≥WX@¨ã“— Âé£Lå`r9ú`·9∞ZáV„”˚≠§±¨–3ôA“SERA"
+2017/01/11 06:47:50 [info] 24520#0: *7 client sent invalid method while reading client request line, client: 218.17.162.222, server: localhost, request: "G‹Øøz≈[◊ßªµçM≥WX@¨ã“— Âé£Lå`r9ú`·9∞ZáV„”˚≠§±¨–3ôA“SERA"
+2017/01/11 06:49:42 [error] 24520#0: *8 [lua] ramlab_upload2file.lua:55: handle_uploading(): md5:ddb2c01afd6b0b1c7e02156e348f6266, client: 218.17.162.222, server: localhost, request: "POST /http-img HTTP/1.1", host: "52.53.179.112"
+2017/01/11 06:49:42 [info] 24520#0: *8 client 218.17.162.222 closed keepalive connection
