@@ -1,9 +1,9 @@
 local client = require "resty.websocket.client"
 local time1 = os.clock()
 local wb, err = client:new()
-local uri = "ws://54.67.106.155:80/s"
+local uri = "ws://52.53.159.85/websocket"
 local ok, err = wb:connect(uri)
-
+local data = "hello"
 if not ok then
     ngx.say("failed to connect: " .. err)
     return
@@ -21,8 +21,8 @@ if not data then
     return
 end
 
-ngx.say("CONNECT+SEND+RECEIVE Costs: ", (os.clock()-time1)*1000, ms)
-ngx.say("received: ", data, " (", typ, "): ", err)
+ngx.say("CONNECT+SEND+RECEIVE Costs: ", (os.clock()-time1)*1000, "ms")
+ngx.say("received: ", data, " (", typ, ") error:", err)
 
 -----------------send close------------------------
 local bytes, err = wb:send_close()
