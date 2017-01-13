@@ -29,3 +29,10 @@ coroutine 0:
 2017/01/12 05:38:43 [info] 24369#0: *16 client 127.0.0.1 closed keepalive connection
 2017/01/12 05:39:37 [info] 24369#0: *18 client 127.0.0.1 closed keepalive connection
 2017/01/12 05:39:59 [info] 24369#0: *20 client 127.0.0.1 closed keepalive connection
+2017/01/13 01:29:42 [notice] 1565#0: using the "epoll" event method
+2017/01/13 01:29:42 [notice] 1565#0: openresty/1.11.2.2
+2017/01/13 01:29:42 [notice] 1565#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+2017/01/13 01:29:42 [notice] 1565#0: OS: Linux 4.4.0-53-generic
+2017/01/13 01:29:42 [notice] 1565#0: getrlimit(RLIMIT_NOFILE): 1024:65536
+2017/01/13 01:29:42 [notice] 1566#0: start worker processes
+2017/01/13 01:29:42 [notice] 1566#0: start worker process 1567
