@@ -1,7 +1,7 @@
 local client = require "resty.websocket.client"
 local time1 = os.clock()
 local wb, err = client:new()
-local uri = "ws://52.53.159.85/websocket"
+local uri = "ws://52.78.219.133/websocket"
 local ok, err = wb:connect(uri)
 local data = "hello"
 if not ok then
